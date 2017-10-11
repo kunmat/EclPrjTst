@@ -13,7 +13,7 @@ public class AnyClass
 	private AnyClass()
 	{
 		super();
-		// TODO aemk 10.10.2017 Auto-generated constructor stub
+		// TODO aemk 1
 	}
 
 }
