@@ -16,7 +16,7 @@ public class TestClassFour
 	private TestClassFour()
 	{
 		super();
-		// TODO aemk 11.10.2017 Auto-generated constructor stub
+		// TODO
 	}
 
 }
