@@ -9,4 +9,14 @@ package any.ww;
 public class TestClassFour
 {
 
+	/**
+	 * Konstruktor.
+	 *
+	 */
+	private TestClassFour()
+	{
+		super();
+		// TODO aemk 11.10.2017 Auto-generated constructor stub
+	}
+
 }
