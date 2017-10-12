@@ -30,7 +30,9 @@ pipeline  {
                 echo '## CHECKOUT epay21-connector ##'
                 checkout([$class: 'SubversionSCM', additionalCredentials: [], excludedCommitMessages: '', excludedRegions: '', excludedRevprop: '', excludedUsers: '', filterChangelog: false, ignoreDirPropChanges: false, includedRegions: '', locations: [[credentialsId: '749ca61b-c86d-4467-888f-a6bbc22dc3d5', depthOption: 'infinity', ignoreExternalsOption: false, local: 'epay21-connector/sources', remote: 'svn://dvsvffm/prod/se/xsta/sources/epay21-connector/trunk']], workspaceUpdater: [$class: 'UpdateWithRevertUpdater']])
  				withAnt(installation: 'Ant', jdk: 'Java') {
-   					       bat "ant dist"
+   					dir("scoring"){
+   						bat "ant dist"
+   					}
 				}
        
             }
