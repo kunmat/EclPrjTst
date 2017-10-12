@@ -9,11 +9,10 @@ package any.ww;
 public class AnyClass
 {
 
-	/** Konstruktor. */
-	private AnyClass()
+	public String toString()
 	{
-		super();
-		// TODO aemk 1
+		// TODO aemk 12.10.2017 Auto-generated method stub
+		return super.toString();
 	}
 
 }
